@@ -1,5 +1,8 @@
 package com.produtos.apirest.model;
 
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -9,11 +12,12 @@ import javax.persistence.Table;
 
 @Entity
 @Table (name= "produtos")
+@AllArgsConstructor
+@NoArgsConstructor
 public class ProdutoEstoque {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	
 	@Column(name="id")
 	private int id;
 	
