@@ -1,4 +1,4 @@
-package com.produtos.apirest.estoque;
+package com.produtos.apirest.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
